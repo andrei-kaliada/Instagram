@@ -3,6 +3,7 @@ import InstaService from '../../services/instaService';
 import Error from '../Error/Error';
 import Post from './Post/Post';
 
+
 export default class Posts extends Component{
 
     InstaService = new InstaService();
